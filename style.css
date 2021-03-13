@@ -1,0 +1,48 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    height: 85px;
+    font-size: 30px;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+main {
+    background-image: url(szport.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.blok{
+    float: left;
+    width: 35%;
+    height: 500px;
+    background-color: rgba(204, 204, 204, 0.842);
+    margin-left: 10%;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 3px solid cornflowerblue;
+    padding: 10px;
+}
+button{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    border: 1.5 solid black;
+}
+button:hover{
+    background-color: white;
+    color: cornflowerblue;
+}
+input{
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#wynik2 {
+    color: red;
+    font-size: 20px;
+}
